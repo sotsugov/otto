@@ -10,7 +10,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set the api url, key, secret (must be first set up on the dashboard) and password (api otp must be enabled) in the environment variables and export them.
+⚠️ Set the api url, key, secret (must be first set up on the dashboard) and password (api otp must be enabled) in the environment variables and export them.
 
 ```
 export OTTO_URL=<OTTO_URL>
@@ -65,7 +65,7 @@ And then use the `allure serve reports` to generate a report and make a local se
 
 ## Running tests using Docker
 
-We must first set the environment variables in the `Dockerfile` for the api calls and authentication.
+⚠️ We must first set the environment variables in the `Dockerfile` for the api calls and authentication.
 
 Then build the image using Dockerfile and run tests in a container
 
